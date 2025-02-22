@@ -1,0 +1,91 @@
+
+.roboto-heading {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* font-variation-settings: wdth 100; */
+  }
+  .roboto-parag {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+body {
+    background-color: rgb(228, 208, 181);
+}
+
+/* header {
+color: rgb(246, 243, 243);
+/* background-color:rgb(150, 85, 85); */
+display: flex;
+justify-content: center;
+align-items:center;
+background-image: url(huesandclay.png);
+background-repeat: no-repeat;
+} */
+
+.image-container {
+  position: relative;
+  width: 50%;
+  max-width: 6px; 
+}
+
+.image {
+  width: 100%;
+  /* height: 10em; */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 20%; /* Positioning text in the middle */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
+  color: rgb(29, 26, 26);
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+
+/* Navigation styling */
+nav {
+  background-color: #934a4a; /* Dark background for the nav */
+  padding: 10px 0; /* Add padding to top and bottom */
+  text-align: center; /* Center the navigation links */
+  margin-top: 20px; /* Space between the header and nav */
+}
+/* for the text styling */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  padding: 8px 15px;
+  transition: background-color 0.3s;
+}
+/* for the hover effect */
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+footer {
+color: black;
+background-color: burlywood; 
+}
+.centered {
+ text-align: center;
+}
+.intro {
+    max-width: 300px;
+    text-align: left;
+}
+.move { 
+    border:radius 80px;   
+    align-items: self-start;
+}
