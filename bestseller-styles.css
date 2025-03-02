@@ -1,0 +1,6 @@
+.image-container{
+    display: grid;
+}
+.image{
+    width: 300px;
+}

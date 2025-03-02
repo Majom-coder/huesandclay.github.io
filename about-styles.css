@@ -1,16 +1,49 @@
+/* Body Background Color */
+body {
 
-.roboto-heading {
-    font-family: "Roboto Condensed", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    /* font-variation-settings: wdth 100; */
-  }
-  .roboto-parag {
-    font-family: "Roboto", serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    body {
-      background-color: rgb(228, 208, 181);
-  }
+.roboto-parag {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 1.6;
+  color: rgb(209, 195, 195);          /* Makes text readable over the background */
+  max-width: 600px;      /* Limits the width of the text */
+  margin: 0 auto;        /* Centers the paragraph */
+}
+
+/* Image Container on the Right Side */
+.image-container {
+  display: 1; /* Makes the image container take up available space */
+  background-image: url('family.JPG'); /* Path to your image */
+  background-size: cover;  /* Ensures the background image covers the container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  height: 100px; /* Specifies the height of the image container */
+  border-radius: 8px; /* Optional: adds rounded corners to the image container */
+}
+.image{
+  width: 500px; 
+}
+/* About container that wraps the image and text */
+.about-container {
+  display: flex;
+  justify-content: space-between; /* Align the items horizontally */
+  align-items: flex-start; /* Aligns the items to the top */
+  gap: 20px; /* Adds space between the image and the text */
+  margin: 0 20px; /* Optional: adds space around the container */
+}
+
+/* Text container styling */
+.text-container {
+  flex: 1; /* Ensures the text container takes up available space */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Paragraph styling */
+.roboto-parag {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
