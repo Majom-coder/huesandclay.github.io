@@ -1,15 +1,15 @@
 
 .roboto-heading {
-    font-family: "Roboto Condensed", serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     /* font-variation-settings: wdth 100; */
   }
   .roboto-parag {
-    font-family: "Roboto", serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
   }
   
@@ -53,7 +53,7 @@ background-repeat: no-repeat;
 
 /* Navigation styling */
 nav {
-  background-color: #934a4a; /* Dark background for the nav */
+  background-color: #ab7373; /* Dark background for the nav */
   padding: 10px 0; /* Add padding to top and bottom */
   text-align: center; /* Center the navigation links */
   margin-top: 20px; /* Space between the header and nav */
@@ -64,7 +64,7 @@ nav a {
   text-decoration: none;
   margin: 0 15px;
   font-size: 18px;
-  font-family: 'Arial', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 8px 15px;
   transition: background-color 0.3s;
 }
@@ -74,9 +74,49 @@ nav a:hover {
   border-radius: 5px;
 }
 
+.midle
+
+/* Image Container on the Right Side */
+.image-container2{
+  display: 1; /* Makes the image container take up available space */
+  background-image: url('family.JPG'); /* Path to your image */
+  background-size: cover;  /* Ensures the background image covers the container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  height: 100px; /* Specifies the height of the image container */
+  border-radius: 8px; /* Optional: adds rounded corners to the image container */
+}
+.image2{
+  width: 500px; 
+}
+/* About container that wraps the image and text */
+.about-container {
+  display: flex;
+  justify-content: space-between; /* Align the items horizontally */
+  align-items: flex-start; /* Aligns the items to the top */
+  gap: 50px; /* Adds space between the image and the text */
+  margin: 100px; /* Optional: adds space around the container */
+}
+
+/* Text container styling */
+.text-container {
+  flex: 2; /* Ensures the text container takes up available space */
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+/* Paragraph styling */
+.roboto-parag {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 footer {
 color: black;
-background-color: burlywood; 
+
 }
 .centered {
  text-align: center;

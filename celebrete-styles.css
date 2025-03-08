@@ -1,4 +1,4 @@
-.image-container{
+.image-container2{
     display: flex;
     align-items: center;
    justify-content: center;
@@ -11,6 +11,9 @@
     justify-content: center;
 }
 
+body {
+    background-color: rgb(228, 208, 181);
+}
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /** Variables **/
@@ -39,7 +42,7 @@
 }
 
 * {
-  border: 0;
+  border: 8px;
   margin: 0;
   padding: 0;
 }

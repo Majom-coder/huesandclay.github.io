@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+     <link rel="stylesheet" href="bestseller-styles.css">
+     <link rel="stylesheet" href="celebrete-styles.css">
     <!-- rel is to link to any pages  and href is the exact reference  -->
     <title>HUES AND CLAY</title>
 </head>
@@ -26,35 +28,87 @@
         </div>
     </header>
     <nav>
-        <a href="about.html">About me</a>
-        <a href="bestseller.html">Best Sellers</a>
-        <a href="diykits.html">DIY Kits</a>
-        <a href="celebrate.html">Celebrate with Clay</a>
+        <a href="#about">About me</a>
+        <a href="#bestseller">Best Sellers</a>
+        <a href="#diykits">DIY Kits</a>
+        <a href="#celebrate">Celebrate with Clay</a>
     </nav>
     <div id="greeting"></div>
     <main>
-        <section>
-            <header class="roboto-heading">About me</header>
+        <section id="about">
+            
             <div class="about-container">
                 <div class="text-container">
+                    <h2 class="roboto-heading">About me</h2>
                     <p class="roboto-parag">Hi, I’m Maria Jose Turitich, the creator behind Hues and Clay. What started as a creative escape during COVID-19 quickly became a passion. I never thought of myself as "good with my hands," but working with polymer clay turned into a relaxing therapy for my anxiety and a love for crafting unique jewelry.
         
                     As I shared my creations, I realized the joy of making polymer jewelry could be just as fulfilling for others. That inspired me to not only sell my pieces but also teach others through workshops. I’m excited to be working on DIY kits, so you can enjoy the therapeutic experience of jewelry making from home or at your next craft party.
                     
                     Though the kits are still in development, I’m grateful for the support I’ve received and can’t wait to share more soon.</p>
                 </div>
-                <div class="image-container"> <img class="image" src="family.JPG" alt="picture of a family 3 kids and mom and dad">
+                <div class="image-container2"> <img class="image2" src="family.JPG" alt="picture of a family 3 kids and mom and dad">
                 </div> 
             </div>
+        </section>
+        <section id="bestseller">
+            <div class="best-sellers">
+                <div class="image-item">
+                  <img src="terra.jpg" alt="Best Seller 1">
+                </div>
+                <div class="image-item">
+                  <img src="summer.jpg" alt="Best Seller 2">
+                </div>
+                <div class="image-item">
+                  <img src="elisa.jpg" alt="Best Seller 3">
+                </div>
+                <div class="image-item">
+                  <img src="arches.jpg" alt="Best Seller 4">
+                </div>
+              </div>
+        </section>
+       
+        <section id="celebrate">
+            <div class="image-container2"><img class="celebrateimage" src="celebrate.jpg" alt=""></div>
+<h1>Celebrate with Us!</h1>
+<p>Whether it’s a birthday party, bridal shower, girls' get-together, or a fun workshop, we’re here to make your special moments unforgettable! Let us bring the fun, creativity, and excitement to your next event.
 
+    Get in touch with us below to book your celebration or inquire about upcoming workshops!
+    
+    We can’t wait to help you create lasting memories!</p>
+  
+    <div class="formantcontainer"> <form
+    action="https://formspree.io/f/xrbenkdd"
+    class="fs-form"
+    target="_top"
+    method="POST"
+  >
+    <div class="fs-field">
+      <label class="fs-label" for="name">Name</label>
+      <input class="fs-input" id="name" name="name" />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="email">Email</label>
+      <input class="fs-input" id="email" name="email" required />
+    </div>
+    <div class="fs-field">
+      <label class="fs-label" for="message">Message</label>
+      <textarea class="fs-textarea" id="message" name="message"></textarea>
+      <p class="fs-description">We usually respond within 1-2 business days.</p>
+    </div>
+    <div class="fs-button-group">
+      <button class="fs-button" type="submit">Send</button>
+    </div>
+  </form></div>
+        </section>
+
+    </main>
             <footer class="centered">
                 Connect with us
                 <a href="https://www.instagram.com/huesandclay/" target="_blank" rel="noopener noreferrer">
                     Instagram
                 </a>
             </footer>
-            </section>
-        </main>
+           
         <script src="index.js"></script>
 </body>
 
