@@ -1,10 +1,25 @@
-.image-container2{
+.video-container{
     display: flex;
     align-items: center;
    justify-content: center;
 }
-.celebrateimage{
+
+.separatesection{
+  margin-top: 150px;
+  text-align: center;
+  padding: 100px;
+
+}
+
+.celebratevideo{
     width: 500px;
+    border-radius: 8px;
+    
+}
+
+.section{
+  text-align: center;
+  margin-top: 100px;
 }
 .formantcontainer{
     display: flex;
