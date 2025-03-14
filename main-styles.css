@@ -53,6 +53,8 @@ background-repeat: no-repeat;
 
 /* Navigation styling */
 nav {
+  position: sticky;
+  top: 0%;
   background-color: #ab7373; /* Dark background for the nav */
   padding: 10px 0; /* Add padding to top and bottom */
   text-align: center; /* Center the navigation links */
@@ -120,6 +122,7 @@ color: black;
 }
 .centered {
  text-align: center;
+ margin-top: 5rem;
 }
 .intro {
     max-width: 300px;

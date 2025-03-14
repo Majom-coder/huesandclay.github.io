@@ -17,9 +17,9 @@
   }
   
   /* Make the layout responsive on smaller screens */
-  /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     .best-sellers {
-      grid-template-columns: 1fr; Stack the images in a single column */
+      grid-template-columns: 1fr; Stack the images in a single column
     }
   
     .image-item img {
