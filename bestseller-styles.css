@@ -1,31 +1,28 @@
 /* Create a grid container */
 .best-sellers {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Create 2 columns with equal width */
-    gap: 20px; /* Space between items */
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr); /* Create 2 columns with equal width */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
 
+/* Style for each image item */
+.image-item img {
+  width: 90%; /* Ensure the image takes up the full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  border-radius: 10px;
+  margin: 1px; /* Center the image within its container */
+  margin-top: 100px; /* You might want to adjust this depending on your layout */
+}
+
+/* Make the layout responsive on smaller screens */
+@media (max-width: 768px) {
+  .best-sellers {
+      grid-template-columns: 1fr; /* Stack the images in a single column */
   }
-  
-  /* Style for each image item */
-  .image-item img {
-    width: 80%; /* Ensure the image takes up the full width of its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-    border-radius: 8px;
-    margin: 0 auto; /* Center the image within its container */
-  }
-  
-  /* Make the layout responsive on smaller screens */
-  @media (max-width: 768px) {
-    .best-sellers {
-      grid-template-columns: 1fr; Stack the images in a single column
-    }
-  
-    .image-item img {
-      max-width: 100%; /* Let the images take up 100% of the available width */
-  }
-  
-  body {
-    background-color: rgb(228, 208, 181);
+}
+
+body {
+  background-color: rgb(228, 208, 181); /* Background color for the body */
 }

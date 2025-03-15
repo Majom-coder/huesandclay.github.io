@@ -1,29 +1,60 @@
-.video-container{
+/* .video-container{
     display: flex;
     align-items: center;
    justify-content: center;
 }
 
-.separatesection{
+/* .separatesection{
   margin-top: 150px;
   text-align: center;
   padding: 100px;
 
-}
+}  */
 
-.celebratevideo{
+/* .celebratevideo{
     width: 500px;
     border-radius: 8px;
     
-}
+} */
 
-.section{
+/* .section{
   text-align: center;
   margin-top: 100px;
+} */
+.video-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Adjust the proportions */
+  gap: 20px; /* Space between the grid items */
+  align-items: center; /* Vertically align items in the middle */
+  margin-top: 100px;
+  padding-left: 50px;
+  height: 100vh;
 }
+
+/* Styling for the video */
+video {
+  width: 100%; /* Make the video responsive */
+  height: 50;
+  border-radius: 50px;
+}
+
+/* Styling for the paragraph */
+.section {
+  font-size: 26px;
+  line-height: 1.6;
+  margin-top: 100px;
+  padding: 20px;
+  align-self: center;
+  text-align: center;
+  
+}
+
+
+
 .formantcontainer{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 body {

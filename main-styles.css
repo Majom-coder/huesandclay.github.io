@@ -4,6 +4,8 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    margin-bottom: 50px;
+    text-align: center;
     /* font-variation-settings: wdth 100; */
   }
   .roboto-parag {
@@ -89,7 +91,8 @@ nav a:hover {
   border-radius: 8px; /* Optional: adds rounded corners to the image container */
 }
 .image2{
-  width: 500px; 
+  width: 500px;
+  border-radius: 10px;
 }
 /* About container that wraps the image and text */
 .about-container {
@@ -105,6 +108,8 @@ nav a:hover {
   flex: 2; /* Ensures the text container takes up available space */
   padding: 50px;
   box-sizing: border-box;
+  margin-top: 50px;
+  margin: 10px;
 }
 
 /* Paragraph styling */
